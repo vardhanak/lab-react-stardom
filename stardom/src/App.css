@@ -1,0 +1,70 @@
+*{
+  margin:0;
+  padding:0;
+}
+.random{
+  background-color: #8675a9;
+}
+.random {
+  background-color: #8675a9; 
+}
+
+.byName {
+  background-color: #51adcf;
+}
+
+.byPopularity {
+  background-color: #8eb068fd;
+}
+
+body {
+  background-color: teal;
+  color: white;
+}
+
+img {
+  width: 65%;
+}
+
+td {
+  width: 20%;
+}
+
+table {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.959);
+  color: black;
+  font-family: 'Times New Roman';
+  font-size:larger;
+}
+
+table,
+th,
+td {
+  border: 2px solid rgb(235, 226, 226);
+  border-spacing: 0;
+}
+
+thead tr td {
+  padding: 20px 0;
+}
+
+tbody tr td {
+  padding: 5px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.random,
+.byName,
+.byPopularity {
+  margin-right: 20px;
+  cursor: pointer;
+  padding: 10px;
+} 
