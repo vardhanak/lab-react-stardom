@@ -1,0 +1,100 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #8854D0;
+}
+.head
+{
+    padding: 0;
+    margin: 0%;
+    background-color: #E9ECEF;
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+}
+
+.table
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+table{
+    width:75%; 
+    border-spacing:10px; 
+    background-color: #FFFFFF;
+}
+td,th{
+    border:2px solid #DEE2E6;
+    border-collapse:collapse;
+    padding: 20px;
+}
+table
+{
+    border:2px solid #DEE2E6;
+    border-collapse:collapse;
+    border: none;
+    padding: 20px;
+}
+table>tr>td>img
+{
+    width: 200px;
+    height: 400px;
+    
+}
+
+td
+{
+    text-align: center;
+}
+
+table>tr>td>button
+{
+    background-color: red;
+    color: white;
+    outline: 0;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.buttons
+{
+    position: absolute;
+    padding-left: 600px;
+    padding-top: 10px;
+}
+
+.buttons>.blue>button
+{
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 7px;
+    border-radius: 3px;
+}
+.buttons>.gray>button
+{
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+    
+    padding: 7px;
+    border-radius: 3px;
+}
+.buttons>.lightblue>button
+{
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+    
+    padding: 7px;
+    border-radius: 3px;
+}
